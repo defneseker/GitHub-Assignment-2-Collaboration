@@ -29,6 +29,22 @@ public class ArrayOperations {
         }
         return Minimum;
     }
+
+    public static void arraysDifference(int[] array) {
+        int sum = 0;
+        int count = 0;
+        double average;
+        for(int i = 0; i < array.length; i++) {
+            sum += array[i];
+            count ++;
+        }
+        average = sum / count;
+        double[] newArray = new double[array.length];
+        for(int i = 0; i < array.length; i++) {
+            newArray[i] = array[i] - average;
+            System.out.print(newArray[i] + ", ");
+        }
+    }
 }
    
 
