@@ -45,21 +45,20 @@ public class ArrayOperations {
             System.out.print(newArray[i] + ", ");
         }
     }
-     public static void Sum(int[] array){
+    public static void Sum(int[] array){
     
         int evenSum = 0;
         int oddSum = 0;
 
-        for(int i = 0; i< array.length; i ++){
+        for(int i = 0; i < array.length; i++){
             if(i % 2 ==0){
-            evenSum += array[i]; 
-            } else {
+                evenSum += array[i]; 
+            }else{
                 oddSum += array[i];
             }
         }
         System.out.println("The sum of elements with odd indexes is " + oddSum + ".");
         System.out.println("The sum of elements with even indexes is " + evenSum + ".");
-    } 
     } 
 }
    
