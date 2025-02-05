@@ -9,4 +9,28 @@ public class ArrayOperations {
         }
         return arr;
     }
+
+    public static int findMaximum(int [] arr){
+        int Maximum = -1; 
+        for(int i=0; i<arr.length; i++){
+            if(arr[i]>Maximum){
+                Maximum=arr[i];
+            }
+        }
+        return Maximum;
+    }
+    
+    public static int findMinimum(int [] arr){
+        int Minimum = 101; 
+        for(int i=0; i<arr.length; i++){
+            if(arr[i]<Minimum){
+                Minimum=arr[i];
+            }
+        }
+        return Minimum;
+    }
 }
+   
+
+
+
