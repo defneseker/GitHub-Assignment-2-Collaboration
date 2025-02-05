@@ -11,7 +11,7 @@ public class ArrayOperations {
     }
 
     public static int findMaximum(int [] arr){
-        int Maximum = -1; 
+        int Maximum = arr[0]; 
         for(int i=0; i<arr.length; i++){
             if(arr[i]>Maximum){
                 Maximum=arr[i];
@@ -21,7 +21,7 @@ public class ArrayOperations {
     }
     
     public static int findMinimum(int [] arr){
-        int Minimum = 101; 
+        int Minimum = arr[0]; 
         for(int i=0; i<arr.length; i++){
             if(arr[i]<Minimum){
                 Minimum=arr[i];
