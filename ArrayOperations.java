@@ -6,6 +6,7 @@ import java.util.Scanner;
  * and minimum of the generated array, displaying how each element of the array 
  * differs from the average and finding the sum of elements with odd- and even-numbered indexes.
  * @author Esra Yalçın
+ * @author Defne Şeker
  */
 public class ArrayOperations {
     public static int[] generateArray (int size) {
