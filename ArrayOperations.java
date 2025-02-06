@@ -7,6 +7,7 @@ import java.util.Scanner;
  * differs from the average and finding the sum of elements with odd- and even-numbered indexes.
  * @author Esra Yalçın
  * @author Defne Şeker
+ * @author Ece Naz Adalı
  */
 public class ArrayOperations {
     public static int[] generateArray (int size) {
