@@ -8,6 +8,7 @@ import java.util.Scanner;
  * @author Esra Yalçın
  * @author Defne Şeker
  * @author Ece Naz Adalı
+ * @author Onur Kaan Yardım
  */
 public class ArrayOperations {
     public static int[] generateArray (int size) {
